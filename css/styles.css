@@ -15,6 +15,7 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
 body {
     background: #222831;
     margin: 0;
