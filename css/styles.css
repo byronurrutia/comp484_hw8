@@ -1,0 +1,97 @@
+/* Color Palette
+#222831 - color 1
+#393E46 - color 2
+#00ADB5 - color 3
+#EEEEEE - color 4
+*/
+
+
+/* Global styles 
+------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    background: #222831;
+    margin: 0;
+}
+
+h1, h2, p, ul, a{
+    font-family: 'Open Sans';
+}
+
+h1, h2, h3 {
+    color: #00ADB5
+}
+
+p, ul, a {
+    color: #EEEEEE;
+}
+
+h2{
+    margin: 0;
+}
+
+.content-wrap {
+    width: 950px;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+header, footer {
+    background: #393E46;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 225px;
+}
+
+header h1 {
+    font-size: 2.75em;
+}
+
+footer {
+    text-align: center;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    transition: all 0.3s ease 0s;
+    color: #00ADB5;
+}
+
+/* Work Experience
+------------------------------------*/
+
+
+
+/* Education
+------------------------------------*/
