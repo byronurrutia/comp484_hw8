@@ -20,8 +20,12 @@ body {
     margin: 0;
 }
 
-h1, h2, p, ul, a{
+h2, p, ul, a{
     font-family: 'Open Sans';
+}
+
+h1 {
+    font-family: 'Oswald';
 }
 
 h1, h2, h3 {
@@ -70,7 +74,12 @@ header, footer {
 }
 
 header h1 {
-    font-size: 2.75em;
+    font-size: 4em;
+    margin-bottom: 0;
+}
+
+header p {
+    margin-top: 0;
 }
 
 footer, nav{
@@ -90,7 +99,6 @@ footer, nav{
 
 /* Work Experience
 ------------------------------------*/
-
 
 
 /* Education
