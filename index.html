@@ -11,10 +11,21 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/9efd089a16.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
+    <nav>
+      <a href="#about">ABOUT</a>
+      <a href="#projects">PROJECTS</a>
+      <a href="#education">EDUCATION</a>
+      <a href="#contact">CONTACT</a>
+      <a href="images/byron_urrutia_resume.pdf" download="">DOWNLOAD PDF</a>
+    </nav>
     <!-- // Intro -->
-    <header>
+    <header id="about">
       <div class="content-wrap">
         <div class="column-narrow">
           <img class="profile-img" src="images/giphy.gif" alt="Byron Urrutia" />
@@ -32,7 +43,7 @@
 
     <main>
       <!-- // Work Experience -->
-      <section>
+      <section id="projects">
         <div class="content-wrap">
           <h2>PROJECTS</h2>
 
@@ -71,6 +82,7 @@
               </li>
             </ul>
           </div>
+          <hr class="solid" />
 
           <!-- Job Details: copy this whole block to add more jobs -->
           <div class="column-narrow">
@@ -96,6 +108,7 @@
             </ul>
           </div>
 
+          <hr class="solid" />
           <!-- Job Details: copy this whole block to add more jobs -->
           <div class="column-narrow">
             <h3>Quality Assurance, Gamestar</h3>
@@ -121,6 +134,7 @@
             </ul>
           </div>
 
+          <hr class="solid" />
           <!-- Job Details: copy this whole block to add more jobs -->
           <div class="column-narrow">
             <h3>NASA Space Grant Consortium</h3>
@@ -186,43 +200,58 @@
       </section>
 
       <!-- // Education -->
-      <section>
-        <div class="content-wrap">
-          <h2>EDUCATION</h2>
+      <section id="education">
+        <div class="image-bg">
+          <div class="alpha-bg">
+            <div class="content-wrap">
+              <h2>EDUCATION</h2>
 
-          <!-- School details: copy this whole block to add more schools. -->
-          <h3>
-            California State University, Northridge, August 2020 - Present
-          </h3>
-          <p>Bachelors of Science in Computer Science; Minor in Mathematics</p>
+              <!-- School details: copy this whole block to add more schools. -->
+              <h3>
+                California State University, Northridge, August 2020 - Present
+              </h3>
+              <p>
+                Bachelors of Science in Computer Science; Minor in Mathematics
+              </p>
 
-          <!-- Add as many paragraphs as you need. -->
-          <h3>RELEVANT COURSEWORK</h3>
-          <ul>
-            <li>COMP 282 Advanced Data Structures</li>
-            <li>COMP 491 Senior Design Project</li>
-            <li>MATH 482 Combinatorial Algorithms</li>
-            <li>COMP 440 Database Design</li>
-            <li>COMP 485 Human Computer Interaction</li>
-            <li>COMP 484 Web Engineering</li>
-          </ul>
-          <!-- End of school details. -->
+              <!-- Add as many paragraphs as you need. -->
+              <h3>RELEVANT COURSEWORK</h3>
+              <ul>
+                <li>COMP 282 Advanced Data Structures</li>
+                <li>COMP 491 Senior Design Project</li>
+                <li>MATH 482 Combinatorial Algorithms</li>
+                <li>COMP 440 Database Design</li>
+                <li>COMP 485 Human Computer Interaction</li>
+                <li>COMP 484 Web Engineering</li>
+              </ul>
+              <!-- End of school details. -->
+            </div>
+          </div>
         </div>
       </section>
     </main>
 
     <!-- // Footer & contact info -->
-    <footer>
+    <footer id="contact">
       <div class="content-wrap">
         <h2>Let's Keep in Touch!</h2>
 
         <!-- Social media and contact links. Add or remove any networks. -->
         <div class="contact-info">
-          <a href="mailto:email@example.com">b.deatourrutia@gmail.com</a>
-          <a href="http://yourwebsite.com" target="_blank">byronurrutia.com</a>
+          <i class="fa-light fa-envelope"></i>
+          <a href="mailto:b.deatourrutia@gmail.com">b.deatourrutia@gmail.com</a>
+          <i class="fa-solid fa-compass"></i>
+          <a href="#" target="_blank">byronurrutia.com</a>
+          <i class="fa-brands fa-twitter"></i>
           <a href="#" target="_blank">Twitter</a>
-          <a href="#" target="_blank">LinkedIn</a>
+          <i class="fa-brands fa-linkedin"></i>
+          <a href="#https://www.linkedin.com/in/byronurrutia/" target="_blank"
+            >LinkedIn</a
+          >
+          <i class="fa-brands fa-facebook"></i>
           <a href="#" target="_blank">Facebook</a>
+          <i class="fa-brands fa-github"></i>
+          <a href="https://github.com/byronurrutia">GitHub</a>
         </div>
 
         <p>Copyright 2022 by Byron Urrutia</p>

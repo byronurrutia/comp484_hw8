@@ -73,17 +73,17 @@ header h1 {
     font-size: 2.75em;
 }
 
-footer {
+footer, nav{
     text-align: center;
 }
 
-.contact-info a {
+.contact-info a, nav a {
     padding: 10px;
     display: inline-block;
     text-decoration: none;
 }
 
-.contact-info a:hover {
+.contact-info a:hover, nav a:hover{
     transition: all 0.3s ease 0s;
     color: #00ADB5;
 }
@@ -95,3 +95,15 @@ footer {
 
 /* Education
 ------------------------------------*/
+.image-bg {
+    background: url(https://c4.wallpaperflare.com/wallpaper/556/658/431/spirited-away-studio-ghibli-anime-wallpaper-preview.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.alpha-bg {
+    background: rgba(57, 62, 70, 50%);
+}
